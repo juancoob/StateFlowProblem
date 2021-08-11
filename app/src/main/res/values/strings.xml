@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="set_password_title">Please, set a password</string>
+    <string name="set_password_message">Your device neither has biometric nor screen lock functionality. Could you set up a password to access the favourite characters section?</string>
+    <string name="password">password</string>
+    <string name="repeat_password">repeat password</string>
+    <string name="recovery_hint">recovery hint</string>
+    <string name="recovery_hint_label">Just in case you forget the password, add a recovery hint</string>
+    <string name="type_recovery_hint">Type the recovery hint</string>
+    <string name="empty_password">Password can not be empty</string>
+    <string name="empty_hint">Hint can not be empty</string>
+    <string name="different_passwords">Both passwords are different</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="incorrect_password">Incorrect password!</string>
+    <string name="type_hint_title">Please, type the hint</string>
+    <string name="type_hint_message">If you don\'t remember the hint, reset the password and the favorites</string>
+    <string name="incorrect_hint">Incorrect hint!</string>
+    <string name="reset_password">reset password</string>
+    <string name="use_password">use password</string>
+</resources>
