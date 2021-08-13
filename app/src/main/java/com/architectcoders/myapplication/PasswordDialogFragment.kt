@@ -6,15 +6,15 @@ import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
 import androidx.fragment.app.DialogFragment
-import androidx.fragment.app.viewModels
-import com.architectcoders.myapplication.MainViewModel.*
+import androidx.fragment.app.activityViewModels
+import com.architectcoders.myapplication.MainViewModel.PasswordState
 import com.architectcoders.myapplication.databinding.DialogFragmentPasswordBinding
 
 class PasswordDialogFragment : DialogFragment() {
 
     private var _binding: DialogFragmentPasswordBinding? = null
     private val binding get() = _binding!!
-    private val mainViewModel: MainViewModel by viewModels()
+    private val mainViewModel: MainViewModel by activityViewModels()
 
     companion object {
         fun getInstance(
